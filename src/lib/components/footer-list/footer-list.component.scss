@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    border: 0.0625rem solid #4a73fd;
+    span{
+      margin-left: 1rem;
+      color: #4a73fd;
+    }
+  }
+}

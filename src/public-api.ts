@@ -1,7 +1,8 @@
 /*
  * Public API Surface of todo-list
  */
-export * from './lib/todo-list.service';
+export * from './lib/utils';
+export * from './lib/components';
 export *
   from './lib/todo-list.component';
 export * from './lib/todo-list.module';
