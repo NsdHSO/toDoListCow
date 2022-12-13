@@ -4,6 +4,7 @@ import {
   NgIf
 } from '@angular/common';
 import {NgModule} from '@angular/core';
+import {MatIconModule} from '@angular/material/icon';
 import {
   BodyTableListComponent,
   FooterListComponent,
@@ -25,7 +26,8 @@ import {CowRoutingModule} from './todo-list.routing.module';
     JumbotronComponent,
     BodyTableListComponent,
     HeaderListComponent,
-    FooterListComponent
+    FooterListComponent,
+    MatIconModule
   ],
   exports: [
     TodoListComponent

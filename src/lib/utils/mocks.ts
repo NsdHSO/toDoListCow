@@ -8,6 +8,7 @@ export const toDoListData = [
       {
         columnOne: 'tag',
         tag: 'DE0448770057',
+
         columnTwo: 'tagTwo',
         tagTwo: '01/10/2020'
       },

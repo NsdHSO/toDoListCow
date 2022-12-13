@@ -1,9 +1,15 @@
+<div class="wrapper-container mat-elevation-z2">
+  ToDo
+</div>
 <div *ngIf="cowList$ | async as data; else loading" class="container-todo">
     <lib-jumbotron *ngFor="let table of data" class="m-2">
       <lib-header-list [dataTile]="table.title"></lib-header-list>
+      <mat-icon class="wrapper-container__icon" [svgIcon]="'fa_regular:ilustrate'"></mat-icon>
       <lib-body-table-list [data]="table.data">      </lib-body-table-list>
       <lib-footer-list [records]="table.allRecords"></lib-footer-list>
     </lib-jumbotron>
 </div>
+<mat-icon class="wrapper-container__building" [svgIcon]="'fa_regular:start_building'"></mat-icon>
+
 
 <ng-template #loading>Loading</ng-template>
